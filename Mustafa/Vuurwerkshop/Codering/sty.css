@@ -1,0 +1,281 @@
+/*navigatie*/
+* {
+	-webkit-transition-property: all;
+	-webkit-transition-duration: .2s;
+  	-moz-transition-timing-function: cubic-bezier(100,50,21,6);
+	-moz-transition-property: all;
+  	-moz-transition-timing-function: cubic-bezier(100,50,21,6);
+}
+
+body{
+ 
+  padding:75px;
+  text-align:center;
+  font-family: 'Oswald', sans-serif;
+}
+
+h1{
+  color:#c0c0c0;
+  font-weight:100;
+}
+
+.nav{
+  color: white;
+  padding:10px 20px;
+  font-size:12px;
+  text-decoration:none;
+  letter-spacing:2px;
+  text-transform:uppercase;
+}
+
+.nav:hover{
+  border:none;
+  background:rgba(0, 0, 0, 0.4);
+  background:#fff;
+  padding:20px 20px; #000;
+  color:#1b1b1b;
+}
+
+.footer{
+  font-size:8px;
+  color:#fff;
+  clear:both;
+  display:block;
+  letter-spacing:5px;
+  border:1px solid #fff;
+  padding:5px;
+  text-decoration:none;
+  width:210px;
+  margin:auto;
+  margin-top:400px;
+}
+
+/* Clear floats after the columns */
+.rij:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.rij2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*KNALVUURWERK*/
+
+.knal {
+    background-color: red;
+    opacity: 0.9;
+}
+
+.knalvw {
+    color: white;
+}
+
+/*Producten 1*/
+.Superkanonslag {
+    float: left;
+    width: 47%;
+    padding: 10px;
+    color: black;
+    background-color: red;
+}
+
+.superkanonslag {
+    width: 300px;
+    height: 200px;
+}
+
+/*Producten 2*/
+.Kanonslag {
+    float: right;
+    width: 47%;
+    padding: 10px;
+    color: black;
+    background-color: green;
+}
+
+.kanonslag {
+    width: 300px;
+    height: 200px;
+}
+
+/*Product 3*/
+.Dynamite {
+    float: left;
+    width: 47%;
+    padding: 10px;
+    color: black;
+    background-color: green;
+}
+
+.dynamite {
+    width: 300px;
+    height: 300px;
+}
+
+/*Prodcut 4*/
+.Bazooka´s {
+    float: right;
+    width: 47%;
+    padding: 10px;
+    color: black;
+    background-color: red;
+}
+
+/*SIERVUURWEK*/
+
+.sier {
+    background-color: red;
+    opacity: 0.9;
+}
+
+.siervw {
+    color: white;
+}
+
+/*Product 1*/
+
+.star {
+    float: left;
+    width: 47%;
+    padding: 10px;
+    color: black;
+    background-color: red;
+}
+
+/*Product 2*/
+.crown {
+    float: right;
+    width: 47%;
+    padding: 10px;
+    color: black;
+    background-color: green;
+}
+
+.titan {
+    width: 300px;
+    height: 210px;
+}
+
+/*Product 3*/
+.family {
+    float: left;
+    width: 47%;
+    padding: 10px;
+    color: black;
+    background-color: green;
+}
+
+.xxxl {
+    width: 300px;
+    height: 210px;
+}
+
+/*Product 4*/
+.newyear {
+    float: right;
+    width: 47%;
+    padding: 10px;
+    color: black;
+    background-color: red;
+}
+
+.assortiment {
+    width: 300px;
+    height: 210px;
+}
+
+/*aanbieding*/
+.aanbiedingen {
+    background-color: red;
+    color: white;
+    height: 300px;
+    opacity: 0.9;
+}
+
+/*Welkom*/
+.welkm {
+    background-color: red;
+    opacity: 0.9;
+}
+
+.h1 {
+  font-family: 'Black Han Sans', sans-serif;
+  color: white;
+  font-size: 30px;
+}
+
+.welkom {
+  font-family: 'Sedgwick Ave', cursive;
+  color: white;
+  font-size: 50px;
+  position: relative;
+  
+}
+
+/*header*/
+.header {
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    text-align: left;
+}
+
+/*Gallerij*/
+.slide {
+    color: white;
+}
+
+.gallerij {
+    background-color: red;
+    opacity: 0.9;
+}
+
+.mySlides {
+    width: 100%;
+    text-align: center;   
+    display:none;
+}
+
+
+/*Search bar*/
+.topnav {
+    overflow: hidden;
+}
+
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+.shoppingcar {
+    text-align: right;
+}
+
+/*Hele assortiment*/
+.assor {
+    background-color: red;
+    opacity: 0.9;
+}
+
+.heleassor {
+    color: white;
+}
+
+/*Contact*/
+
+.con {
+    background-color: red;
+    opacity: 0.9;
+}
+
+.cont {
+    color: white;
+}
