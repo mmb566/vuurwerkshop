@@ -1,0 +1,44 @@
+HTML:
+
+<div class="gallerij">
+						<h2 class="slide">Gallerij</h2>
+						  	<img class="photo" width="300" src="https://inspiratie.intratuin.nl/wp-content/uploads/2017/09/intratuin-vuurwerk_header-1024x500.jpg">
+						  	<img class="photo" width="300" src="https://www.meerbode.nl/wp-content/uploads/2018/09/AA8I8400-640x360.jpeg">
+						  	<img class="photo" width="300" src="https://partyflock.nl/ov/images/news/33656_1024x576_491058/Verbod-op-vuurwerk-op-kermissen-en-dancefeesten-extreem-overdreven.png">
+					</div>
+
+					<script>
+					var myIndex = 0;
+					carousel();
+
+					function carousel() {
+					    var i;
+					    var x = document.getElementsByClassName("photo");
+					    for (i = 0; i < x.length; i++) {
+					       x[i].style.display = "none";  
+					    }
+					    myIndex++;
+					    if (myIndex > x.length) {myIndex = 1}    
+					    x[myIndex-1].style.display = "block";  
+					    setTimeout(carousel, 4000); // Change image every 2 seconds
+					}
+					</script>
+          
+          
+          CSS:
+          
+          /*Gallerij*/
+.slide {
+    color: white;
+}
+
+.gallerij {
+    background-color: red;
+    opacity: 0.9;
+}
+
+.mySlides {
+    width: 100%;
+    text-align: center;   
+    display:none;
+}
