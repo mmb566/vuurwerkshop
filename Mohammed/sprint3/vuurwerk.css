@@ -4,14 +4,27 @@
     float: right;
 
 }
+
+
+
+.mySlidesfade {
+left: 80px;
+}
+
 h4 {
 	color: white;
 	font-size: 30px;
+	
+
 }
+P { text-align: center }
+
+
 
 .navbar-form{
 text-align:right;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -24,14 +37,22 @@ ul {
 background-color: black;
 color: white;
 height: 100px;
-opacity: 0.7;
+opacity: 0.9;
 }
+
+.test {
+background-color: white;
+color: white;
+height: 100px;
+opacity: 0.8;
+}
+
 
 .Gallerij {
 background-color: black;
 color: white;
 height: 400px;
-opacity: 0.7;
+opacity: 0.8;
 }
 
 
@@ -147,7 +168,7 @@ li a:hover {
 
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -159,6 +180,17 @@ li a:hover {
     padding: 14px 16px;
     text-decoration: none;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 .dropdown {
     float: left;
@@ -205,4 +237,45 @@ li a:hover {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+
+
+
+
+
+
+
+/*Gallerij*/
+.slide {
+    color: white;
+}
+
+.gallerij {
+    background-color: black;
+    opacity: 0.9;
+}
+
+.mySlides {
+    width: 400%;
+    text-align: center;   
+    display:none;
+}
+
+
+
+
+IMG.photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+	
+	
+	
+	P.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
+}
+
+
 </style>
