@@ -28,7 +28,7 @@ if($result = mysqli_query($link, $sql)){
                 echo "<td>" . $row['naam'] . "</td>";
                 echo "<td>" . $row['prijs'] . "</td>";
                 echo "<td>" . $row['categorie'] . "</td>";
-				echo "<td>" . $row['url'] . "</td>";
+				//echo "<td>" . $row['url'] . "</td>";
 				echo "<td><img class='superkanonslag' src=".$row['url']."></td>";
 				echo "</tr>";
 				echo "</div>";
