@@ -1,0 +1,158 @@
+header {
+margin-top: 0;
+}
+
+.header1 {
+    position: relative;
+	margin-top: 0;
+    background-color: #666;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+.h1tekst {
+position: absolute;
+}
+
+/*header winkelwagen*/
+.wagenh {
+    float: right;
+}
+
+
+
+/*Navigatiebar*/
+.Navigatiebar1 {
+    position: relative;
+	margin-top: 0;
+    background-color: #666;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+
+.winkelw {
+    float: right;
+}
+/*Navigatiebar-CLOSE*/
+
+
+
+
+/*BODY */
+.Whole-bg{
+background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+
+}
+
+
+
+/*BOX AANBIEDINGEN*/
+h3{
+text-align:center;
+
+}
+#example1 {
+    box-sizing: border-size;
+    width: 80%;
+    margin-left: 10%;
+    padding: 30px;    
+    border: 5px solid black;
+margin-top:10px ;
+margin-bottom:10x ;
+}
+/*BOX2 GALLERIJ*/
+#examgallery {
+	position:relative;
+    box-sizing: border-size;
+    width: 80%;
+    margin-left: 10%;
+    padding: 30px;    
+    border: 5px solid black;
+}
+
+/*Images (aanbiedingen)*/
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
+
+/*GALLARIJ STYLE*/
+
+#example5 {
+	position:absolute;
+    box-sizing: content-box;    
+    width: 300px;
+    height: 100px;
+    padding: 30px;    
+    border: 10px solid blue;
+}
+
+
+/*CLOSE- GALLARIJ STYLE*/
+
+/*BODY-CLOSE*/
+
+
+/*Footer*/
+
+
+
+
+}
+
+/*Footer-CLOSE*/
+
+
+
+
+
+
+
+
+/*______________________________________________________________________________________________________________________*/
+
+
